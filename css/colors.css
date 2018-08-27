@@ -1,0 +1,23 @@
+.colorNav{
+  background-color: #000;
+}
+
+.colorSec{
+    background-color: #212121;
+    color: white;
+}
+
+.introSec{
+    color: white;
+    margin-top: 250px;
+    text-align:center; 
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.arrow1 {
+    height: 75px;
+    width: 75px;
+    margin-top: 150px;
+}
