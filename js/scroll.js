@@ -1,14 +1,24 @@
-var top1 = $('#home').offset().top;
-var top2 = $('#featuredWork').offset().top;
-var top3 = $('#caseStudy').offset().top;
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-$(document).scroll(function() {
-  var scrollPos = $(document).scrollTop();
-  if (scrollPos >= top1 && scrollPos < top2) {
-    $('#change').css('background-color', '#f00');
-  } else if (scrollPos >= top2 && scrollPos < top3) {
-    $('#change').css('background-color', '#0f0');
-  } else if (scrollPos >= top3) {
-    $('#change').css('background-color', '#00f');
-  }
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 });
