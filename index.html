@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -52,17 +52,17 @@
             </li>
             <!--PLANETS BUTTON-->
               <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn nav-link">Planets</button>
+                <button onclick="myFunction()" class="dropbtn nav-link planetFix">Planets</button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a class="nav-link" href="#Earth">EARTH</a>
-                    <a class="nav-link" href="#Mercury">MERCURY</a>
-                    <a class="nav-link" href="#Thesun">THE SUN</a>
-                    <a class="nav-link" href="#Venus">VENUS</a>
-                    <a class="nav-link" href="#Mars">MARS</a>
-                    <a class="nav-link" href="#Saturn">SATURN</a>
-                    <a class="nav-link" href="#Neptune">NEPTUNE</a>
-                    <a class="nav-link" href="#Jupiter">JUPITER</a>
-                    <a class="nav-link" href="#Uranus">URANUS</a>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Earth">EARTH</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Mercury">MERCURY</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Thesun">THE SUN</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Venus">VENUS</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Mars">MARS</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Saturn">SATURN</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Neptune">NEPTUNE</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Jupiter">JUPITER</a></button>
+                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Uranus">URANUS</a></button>
                 </div>
               </div>
             <!-- Button -->
@@ -85,8 +85,7 @@
     </header>
 
     <!-- EARTH Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/earth.jpg'); height: 768px" id="Earth">
-      <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+    <section class="py-5 bg-image-full" style="background-image: url('img/earth.jpg');" id="Earth">
       <div style="height: 200px;"></div>
     </section>
 
@@ -97,6 +96,10 @@
         <p class="lead play"   >View On: <a href="http://www.google.com/maps/space/earth">Google Earth</a>.</p>
         <p class="play" >Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating and other sources of evidence, Earth formed over 4.5 billion years ago.</p>
         <p class="play" >Find more info here: <a href="https://en.wikipedia.org/wiki/Earth">en.wikipedia.org/wiki/Earth</a></p>
+        <p class="play" >Watch a video of the space station orbiting the earth:
+          </br>
+            <iframe class="videoSize" src="https://www.youtube.com/embed/jcrjoA3OGSA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </p>
       </div>
     </section>
     
