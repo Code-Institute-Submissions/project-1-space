@@ -1,3 +1,73 @@
+
+.colorNav{
+  background-color: #000;
+}
+
+.colorSec{
+    background-color: #212121;
+    color: white;
+}
+
+
+.introSec{
+    color: white;
+    margin-top: 250px;
+    text-align:center; 
+}
+
+.arrow1 {
+    height: 75px;
+    width: 75px;
+    margin-top: 150px;
+}
+
+.nav-item {
+    
+    text-align: right;
+}
+
+.aboutSec{
+    background-color: #303030 !important;
+    color: white;
+}
+
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  background-color: black;
+}
+
+@media (max-width: 996px) {
+  .videoSize{
+    height: 360px !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 996px){
+  .bg-image-full: {
+    width: 996px;
+  }
+}
+
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+   height: 768px;
+}
+
+.videoSize{
+    height:  720px;
+    width: 100%;
+  }
+
 /* Dropdown Button */
     .dropbtn {
         background-color: inherit;
@@ -107,4 +177,4 @@
             border: .75px solid white;
             color: white;
     }
-    }
+}

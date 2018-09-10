@@ -11,21 +11,35 @@
     <title>Project-1 Space</title>
     
     <!--Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    
 
     <!-- Custom styles for this page -->
-    <link href="css/full-width-pics.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/colors.css" type="text/css" />
-    <link rel="stylesheet" href="css/dropdown.css" type="text/css" />
+    <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <style>
       @import url('https://fonts.googleapis.com/css?family=Play:700');
       
       .play{
         font-family: 'Play', sans-serif !important;
+      }
+      @media (max-width: 996px){
+        .aboutFix{
+          text-align: right;
+        }
+      }
+      .aboutFix{
+        text-align: center;
+      }
+      .aboutSecPara {
+        background-color: #212121 !important;
+        margin-left:15px;
+        margin-right:15px;
+        padding: 5px 15px 5px 15px;
       }
     </style>
 
@@ -44,11 +58,7 @@
           <ul class="navbar-nav ml-auto">
             <!--HOME BUTTON-->
             <li class="nav-item">
-              <a class="nav-link play"  href="#">Home</a>
-            </li>
-            <!--ABOUT BUTTON-->
-            <li class="nav-item play">
-              <a class="nav-link"  href="#About">About</a>
+              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link play"  href="#">Home</a></button>
             </li>
             <!--PLANETS BUTTON-->
               <div class="dropdown">
@@ -65,9 +75,13 @@
                     <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Uranus">URANUS</a></button>
                 </div>
               </div>
+            <!--ABOUT BUTTON-->
+            <li class="nav-item play">
+              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link"  href="#About">About</a>
+            </li>
             <!-- Button -->
             <li class="nav-item play">
-              <a class="nav-link"  href="#">Contact</a>
+              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link"  href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -233,7 +247,39 @@
     
     <!--ABOUT Section-->
     <section class="py-5 aboutSec" id="home">
-      
+      <div class="jumbotron jumbotron-fluid aboutSec ">
+         <div class="container ">
+        <h1 class="play">About</h1>
+        <hr>
+        <div class="container play">
+          <div class="row">
+            <div class="col-2">Name: </div>
+            <div class="col-10 aboutFix">Jason Bishop</div>
+          </div>
+          <div class="row">
+            <div class="col-2">Nationality: </div>
+            <div class="col-10 aboutFix">British (From The United Kindom)</div>
+          </div>
+          <div class="row">
+            <div class="col-2">Age: </div>
+            <div class="col-10 aboutFix">22 (29/05/1996)</div>
+          </div>
+          <div class="row">
+            <div class="col-2">Portfolio: </div>
+            <div class="col-10 aboutFix">www.google.com</div>
+          </div>
+          <div class="row">
+            <div class="col">Why this site was created:</div>
+          </div>
+          <div class="row">
+            <div class="col-11 aboutSecPara rounded">
+                This is a website for my project 1 assement. 
+                which is focused on the HTML / CSS side off things. 
+                In the project i needed 4 to 5 distinked sections base on a hobby or personal enjoy, which i have chosen space as my theme.
+            </div>
+          </div>
+      </div>
+      </div>
     </section>
 
     <!-- Footer -->
