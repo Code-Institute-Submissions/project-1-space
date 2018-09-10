@@ -36,6 +36,22 @@
     color: white;
 }
 
+.sourceWiki{
+    float: right;
+}
+
+.socailIcons{
+    color: #767676;
+}
+
+.socailIcons:hover{
+    color: white;
+}
+
+.socailBox{
+    width: auto;
+}
+
 /*!
  * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
  * Copyright 2013-2017 Start Bootstrap
@@ -50,6 +66,13 @@ body {
     height: 360px !important;
     width: 100%;
   }
+}
+
+@media (max-width: 777px){
+    .socailBox{
+        padding: 0px;
+        width: 12.5%;
+        }
 }
 
 @media (max-width: 996px){
