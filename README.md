@@ -1,24 +1,38 @@
-## Preview
+# Project 1 : Space
 
 [![Full Width Pics Preview](https://preview.c9users.io/jaysson29/project_1/img/example.jpg)](https://blackrockdigital.github.io/startbootstrap-full-width-pics/)
+ 
+## Overview
+ 
+### Preview
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-full-width-pics/)**
+**Live Preview** : [Here](http://jaysson29.github.io/project-1-space)
+### What is this website for?
+ 
+This is a website for my full stack web development course as a project, this project is based on only three languages HTML, CSS AND JavaScript 
+ 
+### What does it do?
+ 
+This website has various sections with custom made images, designed by my self in (adobe photoshop), for each main planet in a solar system.
+Each section also has small brief of information about each planet and some exsternal websites fully of information and visual documentation.
 
-## About
+## Tech Used
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+### Some the tech used includes:
+- **HTML**, **CSS** and **Javascript**
+  - Base languages used to create website
+- [Bootstrap](http://getbootstrap.com/)
+    - We use **Bootstrap** to give our project a simple, responsive layout
+- [JQuery](https://jquery.com)
+    - Use **JQuery** for boostrap and displaying modal
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+## Credits
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+### Media
+- The photos used in this site were obtained from [google](https://google.com) and edited by me.
+- The video used on this site belongs to Youtube on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/gh-pages/LICENSE) license.
+### Information
+- The information used to create this site was from a number of sources
+    - Wikipedia webpage on [Space](https://en.wikipedia.org/wiki/Solar_System)
+    - Research information from [Google](http://google.com)
