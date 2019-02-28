@@ -1,6 +1,6 @@
 # Project 1 : Space
 
-[![Full Width Pics Preview](https://preview.c9users.io/jaysson29/project_1/img/example.jpg)](https://blackrockdigital.github.io/startbootstrap-full-width-pics/)
+[!Full Width Pics Preview]
  
 ## Overview
  
@@ -22,9 +22,9 @@ Each section also has small brief of information about each planet and some exst
 - **HTML**, **CSS** and **Javascript**
   - Base languages used to create website
 - [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
+    - I use **Bootstrap** to give our project a simple, responsive layout
 - [JQuery](https://jquery.com)
-    - Use **JQuery** for boostrap and displaying modal
+    - I **JQuery** for boostrap and displaying modal
 
 ## Credits
 
@@ -33,6 +33,6 @@ Each section also has small brief of information about each planet and some exst
 - The video used on this site belongs to Youtube on [youtube](https://www.youtube.com/watch?v=WfrG95GyU9U)
 
 ### Information
-- The information used to create this site was from a number of sources
+- The information i used to create this site was from a number of sources
     - Wikipedia webpage on [Space](https://en.wikipedia.org/wiki/Solar_System)
     - Research information from [Google](http://google.com)
