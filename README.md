@@ -1,6 +1,6 @@
 # Project 1 : Space
 
-[!Full Width Pics Preview]
+[![Full Width Pics Preview](http://getbootstrap.com/)]
  
 ## Overview
  
