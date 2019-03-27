@@ -1,6 +1,6 @@
 # Project 1 : Space
 
-[![Full Width Pics Preview](http://getbootstrap.com/)]
+[![Full Width Pics Preview](https://github.com/jaysson29/project-1-space/blob/master/Snapshot.jpg?raw=true)]
  
 ## Overview
  
