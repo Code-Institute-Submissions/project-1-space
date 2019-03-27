@@ -121,6 +121,7 @@ body {
         position: relative;
         display: inline-block;
         padding-top: 0px;
+        height: 100%;
     }
     
     /* Dropdown Content (Hidden by Default) */
@@ -152,8 +153,7 @@ body {
     }
     .planetFix{
         float:none;
-        padding-top: 13.33px;
-        padding-right: 0px;
+        height: 100%;
     }
 
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */        
