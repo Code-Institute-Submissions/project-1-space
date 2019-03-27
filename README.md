@@ -4,10 +4,10 @@
  
 ### Preview
 ![Full Width Pics Preview](https://github.com/jaysson29/project-1-space/blob/master/Snapshot.jpg?raw=true)
-**Live Preview** : [Here](http://jaysson29.github.io/project-1-space)
+## **Live Preview** : [Here](http://jaysson29.github.io/project-1-space)
 ### What is this website for?
  
-This is a website for my full stack web development course as a project, this project is based on only three languages HTML, CSS AND JavaScript 
+This is a website for my full stack web development course as a project, this project is based on only three languages HTML, CSS And JavaScript 
  
 ### What does it do?
  
