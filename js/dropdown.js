@@ -18,5 +18,18 @@ window.onclick = function(event) {
       }
     }
   }
+  if (!event.target.matches('.dropbtn')) {
+    
+    var nav = document.getElementsByClassName("navbar-collapse");
+    var i;
+    for (i = 0; i < nav.length; i++) {
+      var navDropdown = nav[i];
+      if (navDropdown.classList.contains('show')) {
+        navDropdown.classList.remove('show');
+      }
+    }
+  }
 }
+
+
 

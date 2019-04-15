@@ -12,11 +12,24 @@
     
     <!--Jquery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <!--JavaScript -->
+    <script type="text/javascript" src="js/scroll.js"></script>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">-->
     
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <script src="js/dropdown.js"></script>
+    <script src="js/scroll.js"></script>
 
     <!-- Custom styles for this page -->
     <link href="css/main.css" rel="stylesheet">
@@ -50,7 +63,7 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id=change>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="change">
       <div class="container">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,33 +72,33 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <!--HOME BUTTON-->
-            <li class="nav-item">
-              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link play"  href="#">Home</a></button>
+            <li class="nav-item play">
+              <a class="nav-link" href="#home">Home</a>
             </li>
             <!--PLANETS BUTTON-->
-            <li class="nav-item">
+            <li class="nav-item play planetsDrop">
               <div class="dropdown">
                 <button onclick="myFunction()" class="dropbtn nav-link planetFix play">Planets</button>
                 <div id="myDropdown" class="dropdown-content">
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Earth">EARTH</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Mercury">MERCURY</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Thesun">THE SUN</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Venus">VENUS</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Mars">MARS</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Saturn">SATURN</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Neptune">NEPTUNE</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Jupiter">JUPITER</a></button>
-                    <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link" href="#Uranus">URANUS</a></button>
+                    <a class="nav-link" href="#Earth">EARTH </a>
+                    <a class="nav-link" href="#Mercury">MERCURY</a>
+                    <a class="nav-link" href="#Thesun">THE SUN</a>
+                    <a class="nav-link" href="#Venus">VENUS</a>
+                    <a class="nav-link" href="#Mars">MARS</a>
+                    <a class="nav-link" href="#Saturn">SATURN</a>
+                    <a class="nav-link" href="#Neptune">NEPTUNE</a>
+                    <a class="nav-link" href="#Jupiter">JUPITER</a>
+                    <a class="nav-link" href="#Uranus">URANUS</a>
                 </div>
               </div>
             </li>
             <!--ABOUT BUTTON-->
             <li class="nav-item play">
-              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link"  href="#About">About</a></button>
+              <a class="nav-link" href="#About">About</a>
             </li>
-            <!-- Button -->
+            <!--CONTACT Button -->
             <li class="nav-item play">
-              <button data-toggle="collapse" data-target="#navbarResponsive" class="dropbtn nav-link ButFix"><a class="nav-link"  href="#Contact">Contact</a></button>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -93,7 +106,7 @@
     </nav>
     
     <!-- Header - set the background image for the header in the line below -->
-    <header class="py-5 bg-image-full" style="background-image: url('img/background1.jpg'); height: 768px" id="changeNav">
+    <header class="py-5 bg-image-full" style="background-image: url('img/background1.jpg');" id="home">
       <section class="py-5 introSec">
         <div class="container">
           <h1 class="play" style="font-size: 75px;">SPACE</h1>
@@ -108,7 +121,7 @@
     </section>
 
     <!-- EARTH Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play" >Earth</h1>
         <p class="lead play"   >View On: <a href="http://www.google.com/maps/space/earth">Google Earth</a>.</p>
@@ -128,13 +141,13 @@
     </section>
     
     <!-- MERCURY Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/mercury.jpg'); height: 768px" id="Mercury">
+    <section class="py-5 bg-image-full" style="background-image: url('img/mercury.jpg');" id="Mercury">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
 
     <!-- MERCURY Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Mercury </h1>
         <p class="lead play"  >View On: <a href="http://www.google.com/maps/space/mercury">Google Earth</a>.</p>
@@ -151,13 +164,13 @@
     </section>
     
     <!-- THE SUN Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/thesun.jpg'); height: 768px" id="Thesun">
+    <section class="py-5 bg-image-full" style="background-image: url('img/thesun.jpg');" id="Thesun">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- THE SUN Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">The Sun</h1>
         <p class="play">
@@ -172,13 +185,13 @@
     </section>
     
     <!-- VENUS Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/Venus.jpg'); height: 768px" id="Venus">
+    <section class="py-5 bg-image-full" style="background-image: url('img/Venus.jpg');" id="Venus">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- VENUS Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Venus</h1>
         <p class="lead play"  >View On: <a href="http://www.google.com/maps/space/venus">Google Earth</a>.</p>
@@ -195,13 +208,13 @@
     </section>
     
     <!-- MARS Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/mars.jpg'); height: 768px" id="Mars">
+    <section class="py-5 bg-image-full" style="background-image: url('img/mars.jpg');" id="Mars">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- MARS Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Mars</h1>
         <p class="lead play"  >View On: <a href="http://www.google.com/maps/space/mars">Google Earth</a>.</p>
@@ -219,13 +232,13 @@
     </section>
     
     <!-- SATURN Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/saturn.jpg'); height: 768px" id="Saturn">
+    <section class="py-5 bg-image-full" style="background-image: url('img/saturn.jpg');" id="Saturn">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- SATURN Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Saturn</h1>
         <p class="play">
@@ -242,13 +255,13 @@
     </section>
     
     <!-- NEPTUNE Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/neptune.jpg'); height: 768px" id="Neptune">
+    <section class="py-5 bg-image-full" style="background-image: url('img/neptune.jpg');" id="Neptune">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- NEPTUNE Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Neptune</h1>
         <p class="play">
@@ -263,13 +276,13 @@
     </section>
     
     <!-- JUPITER Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/jupiter.jpg'); height: 768px" id="Jupiter">
+    <section class="py-5 bg-image-full" style="background-image: url('img/jupiter.jpg');" id="Jupiter">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- JUPITER Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Jupiter</h1>
         <p class="play">
@@ -284,13 +297,13 @@
     </section>
     
     <!-- URANUS Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('img/uranus.jpg'); height: 768px" id="Uranus">
+    <section class="py-5 bg-image-full" style="background-image: url('img/uranus.jpg');" id="Uranus">
       <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
       <div style="height: 200px;"></div>
     </section>
     
     <!-- URANUS Content section -->
-    <section class="py-5 colorSec" id="home">
+    <section class="py-5 colorSec">
       <div class="container">
         <h1 class="play">Uranus</h1>
         <p class="play">
@@ -421,11 +434,6 @@
         </div>
       </div>
     </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/dropdown.js"></script>
 
   </body>
 
